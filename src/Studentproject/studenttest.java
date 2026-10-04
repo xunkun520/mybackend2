@@ -27,7 +27,7 @@ public class studenttest {
         GraduateStudent g1=new GraduateStudent("李老师","王五","20251301011",147);
         g1.introduce();
         g1.research();
-        GraduateStudent g2=new GraduateStudent("李老师","王五","20251301016",147);
+        GraduateStudent g2=new GraduateStudent("李老师","王五二","20251301016",147);
         g2.introduce();
         g2.research();
     }
