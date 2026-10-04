@@ -38,7 +38,11 @@ public class Student {
         return this.studentID;
     }
     public void setScore(int score){
+        if(score>=0&&score<=150){
         this.score=score;
+    }else{
+            System.out.println("请输入正确的成绩");
+        }
     }
     public int getScore(){
         return this.score;
