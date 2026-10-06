@@ -30,5 +30,10 @@ public class studenttest {
         GraduateStudent g2=new GraduateStudent("李老师","王五二","20251301016",147);
         g2.introduce();
         g2.research();
+        Student g3=new GraduateStudent();
+        g3.setScore(120);
+        g3.setStudentID("2025130101");
+        g3.setName("周琪");
+        g3.introduce();
     }
 }
